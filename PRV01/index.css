@@ -1,0 +1,68 @@
+html,
+body {
+  margin: 0;
+}
+header {
+  background: black;
+  width: 100%;
+  margin-bottom: 50px;
+}
+nav {
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+nav ul {
+  width: 70%;
+  display: flex;
+  list-style-type: none;
+  margin-left: 250px;
+}
+nav ul li {
+  margin-right: 55px;
+  color: grey;
+}
+
+header span {
+  width: 20%;
+  margin-left: 60px;
+}
+
+.main {
+  width: 700px;
+  margin: 0 auto;
+}
+.main .list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+.main .list button {
+  background: black;
+  color: white;
+  border: 1px solid black;
+  padding: 6px 18px;
+}
+.main .list .price-color {
+  display: flex;
+  flex-direction: column;
+  color: grey;
+  font-size: 12px;
+}
+.main .list .price-color span:nth-child(2) {
+  font-weight: bold;
+  color: black;
+  font-size: 18px;
+}
+.main .list p {
+  width: 70%;
+  padding: 0;
+  margin: 0;
+  color: grey;
+}
+
+.fa-search {
+  margin-right: 70px;
+}
