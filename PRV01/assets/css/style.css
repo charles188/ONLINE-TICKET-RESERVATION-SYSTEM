@@ -35,7 +35,8 @@ input[type=text2], input[type=password2] {
   width: 220px;
 }
 
-/*
+/* not required 
+
 .input1 [class=input1], input1[class=input1] {
   margin: 10px;
   padding: 31%;
