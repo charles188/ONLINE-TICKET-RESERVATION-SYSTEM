@@ -5,7 +5,8 @@ body{
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
-}
+  
+ }
 
 /* Full-width input fields */
   input[type=text], input[type=password] {
@@ -96,13 +97,14 @@ button:hover {
   width: 500px;
   margin: 8% auto 0;
   padding: 50px 0;
-
+  
 }
 
 /* Add padding to container elements */
 .container {
   padding: 16px;
-  background-color: white;
+  background: rgba(255, 255, 255, 0.75);
+  
   }
 
 /* Clear floats */
