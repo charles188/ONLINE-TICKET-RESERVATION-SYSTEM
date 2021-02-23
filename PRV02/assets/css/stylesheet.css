@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Futura;
+}
+
+header {
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/bus2.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+
+}
+
+body {
+	background-color: rgb(255, 255, 255);
+}
+
+.navbar ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+	
+}
+
+.navbar ul li{
+	display: inline-block;
+	margin-left: 3px;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 7px 14px;
+	border: 1px solid #fff;
+	transition: 0.6s ease;
+}
+
+.navbar ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.navbar ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+.logo img{
+	float: left;
+	width: 115px;
+	height: auto;
+	margin-top: 13px;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+	display: block;
+	background-color: rgba(0,0,0,0.5);
+
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #fff;
+	font-size: 40px;
+}
+
+.button{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);	
+}
+
+.btn{
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 30px;
+	border: 1px solid #fff;
+	transition: 0.6s ease;	
+}
+
+.btn:hover{
+	background-color: #fff;
+	color: #000;	
+}

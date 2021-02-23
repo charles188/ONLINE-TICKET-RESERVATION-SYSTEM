@@ -1,0 +1,136 @@
+
+header{
+	background-image:linear-gradient(rgba(26, 26, 26, 0.5),rgba(78, 78, 78, 0.5)), url(..none);
+	height: 75px;
+	background-size: cover;
+	background-position: center;
+}
+
+.navbar ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 28px;
+}
+
+.navbar ul li{
+	display: inline-block;
+	margin-left: 3px;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 7px 14px;
+	border: 1px solid #fff;
+	transition: 0.6s ease;
+}
+
+.navbar ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.navbar ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+.logo img{
+	float: left;
+	width: 115px;
+	height: auto;
+	margin-top: 16px;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+	
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #fff;
+	font-size: 40px;
+}
+
+.button{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);	
+}
+
+.btn{
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 30px;
+	border: 1px solid #fff;
+	transition: 0.6s ease;	
+}
+
+.btn:hover{
+	background-color: #fff;
+	color: #000;	
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+} 
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.odd-bg {
+    background-color: #c0c0c0;
+}
+
+.even-bg {
+    background-color: #ffffff;
+}
+
+.team-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.team-section .row {
+    width: 70%;
+    margin: auto;
+}
+
+.team-section .col-image {
+    padding: 10px;
+    width: fit-content;
+    float: left;
+}
+
+.team-section .col-image .image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    contain: content;
+}
+
+.team-section .col-details {
+    padding: 10px;
+    width: auto;
+    float: left;
+}
+
+.team-section .col-details p {
+    padding-top: 10px;
+}

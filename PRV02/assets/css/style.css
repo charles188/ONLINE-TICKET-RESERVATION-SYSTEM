@@ -1,0 +1,233 @@
+* {box-sizing: border-box}
+
+header {
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/bus2.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+  margin-bottom: 50px;
+
+  
+ }
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 11px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  
+}
+
+input[type=text2], input[type=password2] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 11px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  
+}
+
+.container .input-wrap label {
+  display: block;
+
+}
+
+.container .input-grp {
+  display: flex;
+	justify-content: space-between ;
+}
+
+.container .input-grp input[type=text2], input[type=password2]{
+  width: 170px;
+}
+
+/* not required to use for now to use
+
+.input1 [class=input1], input1[class=input1] {
+  margin: 10px;
+  padding: 31%;
+  padding: 10px 20px;
+  border-radius: 40px;
+  border: 2px solid var(--color);
+
+}
+*/
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+button {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+  background-color: rgb(228, 149, 58);
+	color: rgb(255, 255, 255);
+}
+
+
+.thefooter {
+  background-color: rgba(255, 255, 255);
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 12rem;
+  text-align: center;
+  align-items: center;
+  padding-top: 19px;
+ 
+}
+
+.thefooter ul li {
+  color: aliceblue;
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  line-height: 60px;
+}
+
+.thefooter ul li a {
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 0px 20px;
+
+}
+
+.thefooter ul li a:hover {
+
+  color: rgb(228, 149, 58);
+  
+}
+
+
+/* Float cancel and signup buttons and add an equal width */
+.signupbtn {
+  float: left;
+  width: 50%;
+  border-radius: 40px;
+  width:50%;
+  margin-left:25%;
+  margin-right:25%;
+}
+
+.signup-form {
+  width: 400px;
+  margin: 0% auto 0;
+  padding: 85px 0;
+  
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.75);
+  
+  }
+
+
+  /* Add social media elements at the footer */
+  /*
+  .icons ul {
+    position:absolute;
+    top:0%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    margin:0;
+    padding:0;
+    display:flex;
+  } */
+  
+  .icons .social ul li {
+    list-style: none;
+  }
+  
+  .icons ul li a {
+    position: relative;
+    width:60px;
+    height:60px;
+    display:block;
+    text-align:center;
+    margin:0 10px;
+    border-radius: 50%;
+    padding: 6px;
+    box-sizing: border-box;
+    text-decoration:none;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+    background: linear-gradient(0deg, #ddd, #fff);
+    transition: .5s;
+  }
+  
+  .icons ul li a:hover {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    text-decoration:none;
+  }
+  
+  .thefooter ul li a .fab {
+    width: 100%;
+    height:100%;
+    display:block;
+    background: linear-gradient(0deg, #fff, #ddd);
+    border-radius: 50%;
+    line-height: calc(60px - 12px);
+    font-size:24px;
+    color: #262626;
+    transition: .5s;
+  }
+  
+  .thefooter ul li:nth-child(1) a:hover .fab {
+    color: #3b5998;
+  }
+  
+  .thefooter ul li:nth-child(2) a:hover .fab {
+    color: #00aced;
+  }
+  
+  .thefooter ul li:nth-child(3) a:hover .fab {
+    color: #dd4b39;
+  }
+  
+  .thefooter ul li:nth-child(4) a:hover .fab {
+    color: #007bb6;
+  }
+  
+  .thefooter ul li:nth-child(5) a:hover .fab {
+    color: #e4405f;
+  }
+
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .signupbtn {
+    width: 100%;
+  }
+}
