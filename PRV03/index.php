@@ -130,7 +130,7 @@ This project is opensource and doen not require any prior permission to edit, al
         <ul id="mainnav">
 			<li class="active"><a href="index.php">Home</a></li>
             <li><a href="#">About</a></li>
-            <li><a href="#">Prices</a></li>
+            <li><a href="prices.html">Prices</a></li>
             <li><a href="team.html">Team</a></li>
             <li><a href="contact.html">Contact Us</a></li>
     	</ul>
@@ -203,7 +203,7 @@ This project is opensource and doen not require any prior permission to edit, al
 		<ul>
 			<li class="active"><a href="#">Privacy</a></li>
 			<li><a href="#">Policy</a></li>
-			<li><a href="price.html">Pricing</a></li>
+			<li><a href="prices.html">Pricing</a></li>
 			<li><a href="team.html">Team</a></li>
 			<li><a href="contact.html">Contact</a></li>
 			<li><a href="about.html">About</a></li>
