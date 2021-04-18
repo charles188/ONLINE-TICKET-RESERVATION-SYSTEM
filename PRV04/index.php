@@ -1,5 +1,5 @@
-<!-- Version: PROV003 -->
-<!-- Date of coding: 27-02-2021 -->
+<!-- Version: PROV004 -->
+<!-- Date of coding: 18-04-2021 -->
 <!-- Contributors -->
 
 <!-- This script is written, designed and altered by:
@@ -140,7 +140,7 @@ This project is opensource and doen not require any prior permission to edit, al
 						while($row = mysqli_fetch_array($result))
 							{
 								echo '<option value="'.$row['id'].'">';
-								echo $row['route'].'  :'.$row['type'].'  :'.date("h:i A",strtotime("2020-01-01 ".$row['time']));
+								echo $row['route'].'  :£'.$row['price'].' :'.$row['type'].' :'.date("h:i A",strtotime("2020-01-01 ".$row['time']));
 								echo '</option>';
 							}
 						?>
