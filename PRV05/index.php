@@ -121,6 +121,7 @@ This project is opensource and doen not require any prior permission to edit, al
             <li><a href="prices.html">Prices</a></li>
             <li><a href="team.html">Team</a></li>
             <li><a href="contact.html">Contact Us</a></li>
+			<li><a href="help.html">Help Center</a></li>
     	</ul>
 	</div>
     <div id="content">
@@ -189,8 +190,8 @@ This project is opensource and doen not require any prior permission to edit, al
 			<div class="thefooter">
 				
 		<ul>
-			<li class="active"><a href="#">Privacy</a></li>
-			<li><a href="#">Policy</a></li>
+		<li><a href="privacy.html">Privacy Policy</a></li>
+      <li><a href="help.html">FAQs</a></li>
 			<li><a href="prices.html">Pricing</a></li>
 			<li><a href="team.html">Team</a></li>
 			<li><a href="contact.html">Contact</a></li>

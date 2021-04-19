@@ -12,5 +12,5 @@ CHRISTABEL IMHANGUELO,
 CHARLES ODUM,
 MUYIWA
 
-for their course work : CMM004 Software Engineering Project
+for this course work : CMM004 Software Engineering Project
 This project is an opensource and does not require any prior permission to edit, alter or implement.
